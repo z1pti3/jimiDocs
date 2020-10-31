@@ -30,17 +30,20 @@ Describing exactly what jimi is would be diffcult as jimi is and means different
 
 ## Common Uses by Role: 
 We have provided just a few examples but with jimi the limit is your imagination.
+
 ### IT Security Analyst
 * SOAR
 * SIEM
 * Event enrichment
 * Security product integration
+
 ### IT Administrator
 * Asset management
 * Software deployment
 * ITIL ticket automation
 * Workflow automation
 * Server performance monitoring
+
 ### Network Engineer
 * Network monitoring
 * Automated diagnostics and remediation
