@@ -20,6 +20,8 @@ jimi Orchestration, Automation and Response
 
 Describing exactly what jimi is would be diffcult as jimi is and means different things depending on the user and use case. Simply put jimi is a graphical expandable IT orchestration and automation platform. 
 
+![Screenshot](https://github.com/z1pti3/jimi/raw/v1.5/examples/screenshots/flowEditor.png)
+
 ## Enterprise Ready
 * Multi-user
 * 2FA
