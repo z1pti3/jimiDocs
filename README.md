@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# Home
+# About
 
-index.md
+README.md
