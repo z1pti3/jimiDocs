@@ -1,2 +1,7 @@
-README.md
-home/index.md
+---
+sort: 1
+---
+
+# Home
+
+index.md
