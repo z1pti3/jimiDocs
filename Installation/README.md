@@ -22,22 +22,22 @@ Creating a jimi cluster is as simple as install jimi twice and adjusting the set
 
 Change the below 0 -> 1
 
-'''
+```
     "system" : {
         "systemID" : 0,
         "accessAddress" : "127.0.0.1",
         "accessPort" : 5000
     },
-'''
+```
 
 
-'''
+```
     "system" : {
         "systemID" : 1,
         "accessAddress" : "127.0.0.1",
         "accessPort" : 5000
     },
-'''
+```
 
 
 4. Ensure that all jimiWeb instances can talk to the exposed API of jimiCore (jimiCore does not need to talk to other jimiCore deployments)
