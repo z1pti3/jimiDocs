@@ -2,149 +2,151 @@
 sort: 1
 ---
 
-# Conversion
+# Functions
 
-## strToInt
+## Conversion
+
+### strToInt
 
 Convert a string into an integer:
 
 `strToInt(<string>)` 
 
-## strToFloat
+### strToFloat
 
 Convert a string into an float:
 
 `strToFloat(<string>)`
 
-## strToBool
+### strToBool
 
 Convert a string into an boolean:
 
 `strToBool(<string>)`
 
-## intToStr
+### intToStr
 
 Convert a integer into a string:
 
 `intToStr(<int>)`
 
-## lower
+### lower
 
 Lowercase a string:
 
 `lower(<string>)`
 
-## upper
+### upper
 
 Uppercase a string:
 
 `upper(<string>)`
 
-## toJson
+### toJson
 
 Convert a string to python dictionary:
 
 `toJson(<string>)`
 
-## fromJson
+### fromJson
 
 Convert a python dictionary into a string:
 
 `fromJson(<dict>)`
 
-# Date and Time
+## Date and Time
 
-## now
+### now
 
 Get the current time as epoch:
 
 `now(<milliseconds=False>)`
 
-## day
+### day
 
 Get the current day:
 
 `day()`
 
-## year
+### year
 
 Get the current year:
 
 `year()`
 
-## month
+### month
 
 Get the current month:
 
 `month()`
 
-## dt
+### dt
 
 Get the current dateTime by format
 
 `dt(<format="%d-%m-%Y">)`
 
-## dateBetween
+### dateBetween
 
 Check if date is between given dates:
 
 `dateBetween(<startDateStr>, <endDateStr>, <dateStr=None>)`
 
-## timeBetween
+### timeBetween
 
 Check if time is between given time:
 
 `timeBetween(<startDateStr>, <endDateStr>, <dateStr=None>)`
 
-# Maths
+## Maths
 
-## sum
+### sum
 
 Sum the provided values
 
 `sum(*args)'
 
-## length
+### length
 
 Get the length of a given variable:
 
 `length(<var>)`
 
-# Network
+## Network
 
-## cidr
+### cidr
 
 Is a given IP within a given cidr
 
 `cidr(<address>, <addressRange>)`
 
-## reverseDNS
+### reverseDNS
 
 Get DNS from a give IP:
 
 `reverseDNS(<IPv4Address>)`
 
-# String
+## String
 
-## contains
+### contains
 
 Is a string within a string:
 
 `contains(<string>, <contents>)`
 
-## split
+### split
 
 Split a string but a substring:
 
 `split(<string>, <spliton>, <position>)`
 
-## strCount
+### strCount
 
 Count the number of occurrences of a given substring within the given string:
 
 `strCount(<string>, <searchString>)`
 
-## join
+### join
 
 Make a string by joining a list:
 
