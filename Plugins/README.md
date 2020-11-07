@@ -6,6 +6,8 @@ sort: 1
 
 Out of the box jimi is nothing more than a few building blocks. jimi uses plugins to come alive providing vast flexibility through a flexible structured plugin system.
 
+View Plugins: https://github.com/topics/jimiplugin
+
 ## Installing Plugins
 
 Download the plugin and extract it into the plugin folder, after doing this you will need to restart jimi.
@@ -41,3 +43,4 @@ playbook | Version controlled management ideal for configuration management wher
 subflow | Reuse jimiFlows, just like function calls in a programming language 
 script | Direct access to run python code within a jimiFlow
 email | Enables jimi to construct and send email messages via an SMTP relay
+
