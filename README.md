@@ -13,7 +13,9 @@
 ```
 jimi Orchestration, Automation and Response
 
-Describing exactly what jimi is would be diffcult as jimi is and means different things depending on the user and use case. Simply put jimi is a graphical expandable IT orchestration and automation platform. 
+Describing exactly what jimi is difficult as jimi is and means different things depending on the user and use case. Simply put jimi is a graphical expandable IT orchestration and automation platform.
+
+jimi takes a no/low code approach to IT and security operations allowing users with no programming experience to build, deploy and understand automated workflows.
 
 ![Screenshot](https://github.com/z1pti3/jimi/raw/v1.5/examples/screenshots/flowEditor.png)
 
@@ -47,4 +49,4 @@ We have provided just a few examples but with jimi the limit is your imagination
 * Backups
 * Configuration management
 
-If you do somthing more than once then use jimi to reduce repetitive tasks!
+If you do something more than once then use jimi to reduce repetitive tasks!
