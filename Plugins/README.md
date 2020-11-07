@@ -27,6 +27,10 @@ rm master.zip
 
 The folder name of the plugin MUST match the plugin name - this can be found by looking at the .py file within the plugin in the example above it would be humio.py
 
+You may find that some plugins required additional python modules. If this is the case you will need to install them on your jimi instance/s
+
+`pip install -r requirements.txt`
+
 
 ## Recommended Plugins
 
