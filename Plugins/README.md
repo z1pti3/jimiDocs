@@ -6,7 +6,7 @@ sort: 1
 
 Out of the box jimi is nothing more than a few building blocks. jimi uses plugins to come alive providing vast flexibility through a flexible structured plugin system.
 
-View Plugins: [link](https://github.com/topics/jimiplugin)
+View Plugins: [Plugins](https://github.com/topics/jimiplugin)
 
 ## Installing Plugins
 

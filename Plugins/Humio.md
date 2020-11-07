@@ -10,7 +10,7 @@ By using Humio and jimi together you can achieve functionality similar to that o
 
 ## Download
 
-[link](https://github.com/z1pti3/jimiPlugin-humio)
+[Download](https://github.com/z1pti3/jimiPlugin-humio)
 
 ## Install
 
