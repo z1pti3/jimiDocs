@@ -41,4 +41,4 @@ occurrenceMatchString | A string that is used to understand what is a unique mat
 New occurrence raised | True | 201 | None
 Existing occurrence updates | True | 302 | None
 Occurrence cleared | True | 205 | None
-Error updating occurrence - no ID | True | 500 | None
+Error updating occurrence - no ID | False | 500 | None
