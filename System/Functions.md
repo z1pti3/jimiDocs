@@ -4,6 +4,13 @@ sort: 1
 
 # Functions
 
+In addition to action logic functions can be used anywhere that supports jimi's string replacement %% synatax
+
+Example:
+```
+%%upper(data[event])%%
+```
+
 ## Conversion
 
 ### strToInt
@@ -104,7 +111,7 @@ Check if time is between given time:
 
 Sum the provided values
 
-`sum(*args)'
+`sum(*args)`
 
 ### length
 
