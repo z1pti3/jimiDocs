@@ -122,3 +122,4 @@ humio_repo |  Humio repo to send the data
 Failed to send data list | False | 1 | None
 Failed to send data dict | False | 2 | None
 Success | True | 0 | None
+
