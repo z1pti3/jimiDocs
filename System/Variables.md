@@ -58,7 +58,7 @@ If on another object occurrence in the jimiFlow after the first we set "dict1" t
 Now "dict1" has a value of { "a" : 1, "b" : 2 } as  { "b" : 2 } was appended to the existing value of "dict1"
 
 
-### Action Results and Outputs
+#### Action Results
 
 Pay close attention to the next two examples which show how to set variables to the output of an action. The method is slightly different depending on if you want to set the variable to the current objects output or the last objects out .i.e the one that executed before the one you are setting it on.  
 
