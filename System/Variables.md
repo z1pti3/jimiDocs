@@ -42,6 +42,7 @@ Set a variable called "dict1" to the value of { "a" : 1, "b" : 2 }:
 
 `{ "dict1" : { "value" : { "a" : 1, "b" : 2 } } }`
 
+
 Dictionary values can also be expanded on future objects e.g.
 
 On the first action we set "dict1" to { "a" : 1 }
@@ -56,6 +57,21 @@ If on another object occurrence in the jimiFlow after the first we set "dict1" t
 
 Now "dict1" has a value of { "a" : 1, "b" : 2 } as  { "b" : 2 } was appended to the existing value of "dict1"
 
+
+### Action Results and Outputs
+
+Pay close attention to the next two examples which show how to set variables to the output of an action. The method is slightly different depending on if you want to set the variable to the current objects output or the last objects out .i.e the one that executed before the one you are setting it on.  
+
+
+Set a variable called "exit1" to the value of the current actions result: 
+
+`{ "exit1" : { "value" : "%%action[rc]%%" } }`
+
+Set a variable called "exit1" to the value of the last actions result:
+
+`{ "exit1" : { "value" : "%%data[action][rc]%%" } }`
+
+
 ## Get
 
 jimi permits values to be used in any location that jimi string replacement syntax is permitted.
@@ -67,4 +83,3 @@ To access variables you could use %%data[var][VAR_NAME]%% within a field that su
 If "init1" was set as above then we would access it as follows:
 
 `%%data[var][init1]%%`
-
