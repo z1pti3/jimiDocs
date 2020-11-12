@@ -61,6 +61,14 @@ Convert a python dictionary into a string:
 
 `fromJson(<dict>)`
 
+## Array
+
+### index
+
+Select a defined index of a given array:
+
+`index(<array>,<index>)`
+
 ## Date and Time
 
 ### now
