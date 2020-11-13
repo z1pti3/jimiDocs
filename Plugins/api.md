@@ -42,6 +42,6 @@ proxy | A dictionary in the following format to define a proxy if required { "ht
 
 | Name | Result Bool | Return Code | Other |
 --- | --- | --- | ---
-Done | True | <HTTP_STATUS_CODE> | data : { "headers", "text" }
+Done | True | HTTP_STATUS_CODE | data : { "headers", "text" }
 
 The data returned is the response data provided by the webserver that served the request
