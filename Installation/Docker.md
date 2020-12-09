@@ -38,7 +38,7 @@ Within the data directory create the settings.json; a working sample can be down
 
 https://raw.githubusercontent.com/z1pti3/jimi-docker/master/data/settings.json
 
-Also within the directory create the public and private keys:
+Also within the data directory create the public and private keys:
  ```
 openssl genrsa -des3 -out private.pem 2048
 openssl rsa -in private.pem -outform PEM -pubout -out sessionPub.pem
