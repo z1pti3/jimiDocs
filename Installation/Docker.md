@@ -34,7 +34,7 @@ Create a db directory
 
 `mkdir db`
 
-Within the data directory the settings.json which can be downloaded from:
+Within the data directory create the settings.json; a working sample can be downloaded from:
 
 https://raw.githubusercontent.com/z1pti3/jimi-docker/master/data/settings.json
 
@@ -47,6 +47,8 @@ rm private.pem
 ```
 
 Download and run the latest images within a new network:
+
+**NOTE** - Remember to update the -v with the paths to your folders created in the steps above.
 
 ```
 docker network create jimi_network
