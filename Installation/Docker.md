@@ -47,6 +47,7 @@ rm private.pem
 ```
 
 Finally, you will also need a folder called log that sits within the data directory
+
 `mkdir log`
 
 Download and run the latest images within a new network:
