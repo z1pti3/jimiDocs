@@ -46,6 +46,9 @@ openssl rsa -in private.pem -out sessionPriv.pem -outform PEM
 rm private.pem
 ```
 
+Finally, you will also need a folder called log that sits within the data directory
+`mkdir log`
+
 Download and run the latest images within a new network:
 
 **NOTE** - Remember to update the -v with the paths to your folders created in the steps above.
