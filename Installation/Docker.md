@@ -38,12 +38,18 @@ Within the data directory create the settings.json; a working sample can be down
 
 https://raw.githubusercontent.com/z1pti3/jimi-docker/master/data/settings.json
 
-Also within the data directory create the public and private keys:
+Within the data directory create the public and private keys:
  ```
 openssl genrsa -des3 -out private.pem 2048
 openssl rsa -in private.pem -outform PEM -pubout -out sessionPub.pem
 openssl rsa -in private.pem -out sessionPriv.pem -outform PEM
 rm private.pem
+```
+
+Again within the data directory create the public and private keys required for the web server:
+
+ ```
+openssl req -newkey rsa:2048 -nodes -keyout web.key -x509 -days 365 -out web.cert
 ```
 
 Finally, you will also need a folder called log that sits within the data directory
