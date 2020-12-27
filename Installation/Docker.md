@@ -75,4 +75,4 @@ View the logs of jimi_core to see the generated password:
 
 Within your browser navigate to 
 
-https://<<jimi_web-IP>>
+https://<<jimi_web-IP>>:4443
