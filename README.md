@@ -11,7 +11,7 @@
   `88o.    8 88'             8 8888            ,8'       `8        `8.`8888.             8 8888
     `Y888888 '               8 8888           ,8'         `         `8.`8888.            8 8888
 ```
-jimi Orchestration, Automation, Response abd More
+jimi Orchestration, Automation, Response and More
 
 Describing exactly what jimi is difficult as jimi is and means different things depending on the user and use case. Simply put jimi is a graphical expandable IT orchestration and automation platform.
 
