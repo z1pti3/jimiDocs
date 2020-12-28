@@ -19,7 +19,7 @@ jimi takes a no/low code approach to IT and security operations allowing users w
 
 ![Screenshot](https://github.com/z1pti3/jimi/raw/v1.5/examples/screenshots/flowEditor.png)
 
-jimi out of the box provides a core engine and user interface but the real power exists within the main triggers and actions that enable jimi to interact with systems and services. For those of you that are new to jimi these interactions are deployed in the form of plugins. Each plugin is written in python so that anyone with even basic python knowledge can create and enhance jimi's capability.
+jimi out of the box provides a core engine and user interface but the real power exists within the many triggers and actions that enable jimi to interact with systems and services. For those of you that are new to jimi these interactions are deployed in the form of plugins. Each plugin is written in python so that anyone with even basic python knowledge can create and enhance jimi's capability.
 
 Currently jimi has 26 public integrations consisting of just over 100 actions and triggers.
 
