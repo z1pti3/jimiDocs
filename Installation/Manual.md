@@ -64,6 +64,8 @@ nano settings.json
         "level" : -1,
         "buffer" : 1000
     },
+    "static" : {
+    },
     "mongodb": {
         "hosts" : ["<HOST>:<PORT>"],
         "db" : "<DBNAME>",
@@ -129,7 +131,7 @@ nano settings.json
             "minUpper" : 1,
             "minSpecial" : 0
         }
-    },
+    }
 }
 ```
 
