@@ -58,7 +58,8 @@ nano settings.json
     "system" : {
         "systemID" : 0,
         "accessAddress" : "<jim_core HOST>",
-        "accessPort" : <jim_core PORT>
+        "accessPort" : <jim_core PORT>,
+        "secure" : false
     },
     "debug" : {
         "level" : -1,
@@ -119,7 +120,10 @@ nano settings.json
     },
     "auth" : {
         "enabled" : true,
-        "sessionTimeout" : 900,
+        "sessionTimeout" : 1800,
+        "apiSessionTimeout" : 300,
+        "cacheSessionTimeout" : 60,
+        "singleUserSessions" : true,
         "rsa" : {
             "cert" : "data/sessionPub.pem",
             "key" : "data/sessionPriv.pem"
