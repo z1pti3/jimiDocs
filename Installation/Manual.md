@@ -98,6 +98,7 @@ nano settings.json
         "loopL" : 200
     },
     "cpuSaver" : { 
+        "enabled" : true,
         "loopT" : 0.01,
         "loopL" : 100
     },
