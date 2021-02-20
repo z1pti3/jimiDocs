@@ -10,5 +10,8 @@ Each jimi_core instance runs with its own cache and distribution only enables th
 
 
 flowData - Persistent for a given flow within an event
+
 eventData - Persistent for a given event
+
 persistentData - Persistent for a given trigger
+
