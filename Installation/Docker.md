@@ -9,7 +9,7 @@ sort: 1
 
 ## Option 1 -  Installer Script
 
-`curl https://raw.githubusercontent.com/z1pti3/jimi-docker/master/jimiSetup.sh | sh`
+`curl https://raw.githubusercontent.com/z1pti3/jimi-docker/master/jimiSetup.sh | bash`
 
 ## Option 2 -  Manual Deployment
 
