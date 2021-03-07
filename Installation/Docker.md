@@ -7,7 +7,11 @@ sort: 1
 ## Prerequisites
 * docker
 
-## Image deployment
+## Installer Script
+
+`curl https://raw.githubusercontent.com/z1pti3/jimi-docker/master/jimiSetup.sh | sh`
+
+## Manual Deployment
 
 Create a data directory
 
