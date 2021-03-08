@@ -31,4 +31,4 @@ Change the below 0 -> 1
 ```
 
 
-Ensure that all jimiWeb instances can talk to the exposed API of jimiCore (jimiCore does not need to talk to other jimiCore deployments)
+Ensure that all jimi instances can talk to the API interfaces by default 5000 for jimi_core and 4443 for jimi_web
