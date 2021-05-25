@@ -3,7 +3,7 @@ sort: 1
 ---
 
 # First Flow
-
+## Note - this refers to an older version of jimi. A new updated version of this documentation will be provided shortly
 
 Login to jimi
 
