@@ -4,12 +4,31 @@ sort: 4
 
 # Functions
 
-In addition to action logic functions can be used anywhere that supports jimi's string replacement %% synatax
+In addition to action logic, functions can be used anywhere that supports jimi's string replacement ```%%``` syntax
 
 Example:
 ```
 %%upper(data[event])%%
 ```
+## Array
+
+### index
+
+Select a defined index of a given array:
+
+`index(<array>,<index>)`
+
+### append
+
+Append a given value to the array
+
+`append(<array>,<value>)`
+
+### remove
+
+Append a given value to the array
+
+`remove(<array>,<index>)`
 
 ## Conversion
 
@@ -61,13 +80,11 @@ Convert a python dictionary into a string:
 
 `fromJson(<dict>)`
 
-## Array
+### jsontoHtml
 
-### index
+Convert JSON into a HTML format:
 
-Select a defined index of a given array:
-
-`index(<array>,<index>)`
+`jsontoHtml(<dict>,<wrap=False>)`
 
 ## Date and Time
 
@@ -127,6 +144,36 @@ Get the length of a given variable:
 
 `length(<var>)`
 
+### roundNum
+
+Return the given value as a rounded int:
+
+`roundNum(<var>)`
+
+### ceil
+
+Return the given value as a rounded (up) int:
+
+`ceil(<var>)`
+
+### floor
+
+Return the given value as a rounded (down) int:
+
+`floor(<var>)`
+
+### increment
+
+Return the given value, incremented by another given value:
+
+`increment(<var>,<by>)`
+
+### decrement
+
+Return the given value, decremented by another given value:
+
+`decrement(<var>,<by>)`
+
 ## Network
 
 ### cidr
@@ -166,3 +213,40 @@ Count the number of occurrences of a given substring within the given string:
 Make a string by joining a list:
 
 `join(<stringList>, <by=None>)`
+
+### concat
+
+Make a string by joining multiple inputs together:
+
+`concat(<*args>)`
+
+### strLower
+
+Returned a string that has been converted to lowercase:
+
+`strLower(<string>)`
+
+### replace
+
+Replace a value within a string based on a pattern and return the replaced string:
+
+`replace(<string>, <match>, <replacement>)`
+
+### strip
+
+Strip leading and trailing whitespace, or by the character(s) provided:
+
+`strip(<string>, <stripOn="">)`
+
+### startsWith
+
+Return a boolean representing if the string starts with the provided value:
+
+`startsWith(<string>, <startswithString>)`
+
+### endsWith
+
+Return a boolean representing if the string ends with the provided value:
+
+`endsWith(<string>, <endswithString>)`
+
