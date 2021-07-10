@@ -13,11 +13,13 @@ jimi Conducts are:
 
 ## New
 
-1. Open "Administration -> Object Editor"
-2. Click edit on "conduct"
-3. Click "Create Object" in the upper left of the open tab
-4. Complete at a minimum the "name" field and ensure "enabled" is set to true
-5. On your keyboard press Control + S to the save the page - it will refresh and a banner will appear in green
+1. Navigate to the Conducts page
+2. Click the "+" to open up a "Create new conduct" menu
+3. Enter a name for the conduct, and optionally a description
+![image](https://user-images.githubusercontent.com/14958920/125165168-b815b200-e18d-11eb-92e0-fc49700ade02.png)
+4. Click the create button
+5. You should now find your conduct listed on the page
+![image](https://user-images.githubusercontent.com/14958920/125165202-e09dac00-e18d-11eb-8484-4a1e7b8c61b3.png)
 
 ## Open
 
@@ -28,11 +30,13 @@ jimi Conducts are:
 
 Within an open Conduct:
 
-1. Press "+" in the top right of the open tab next to "Export, Codify, Import"
-2. Select within the empty dropdown box the object type
-3. Press "Create"
+1. Press "+" in the top right of the open tab next to ```Debug```, ```Export```, ```Codify``` and ```Import```
+![image](https://user-images.githubusercontent.com/14958920/125165241-1347a480-e18e-11eb-9a65-c9fb12c7fb61.png)
+3. Select within the empty dropdown box the object type
+4. Press "Create"
 
-The object will appear in the middle of the Conduct workspace 
+The object will appear in the middle of the Conduct workspace, as shown in the example below
+![image](https://user-images.githubusercontent.com/14958920/125165284-45f19d00-e18e-11eb-9447-be1878f94ad8.png)
 
 ## Import Existing Objects
 
@@ -40,15 +44,15 @@ Only objects that have a scope of 1,2 or 3 will appear in the existing objects b
 
 Within an open Conduct:
 
-1. Press "+" in the top right of the open tab next to "Export, Codify, Import"
+1. Press "+" in the top right of the open tab next to ```Debug```, ```Export```, ```Codify``` and ```Import```
 2. Press "Existing"
 3. Double click on any object you wish to import
+![image](https://user-images.githubusercontent.com/14958920/125170528-5104f700-e1a7-11eb-9deb-260785e632ba.png)
 
 The object will appear in the middle of the Conduct workspace 
 
 *NOTE*
-
-Imported objects are just reused objects if you change it, it will be changed everywhere it is used!
+Imported objects are just reused objects. If you change it, it will be changed everywhere it is used!
 
 ### Scope Values
 
@@ -63,7 +67,7 @@ Scope values do not affect object permissions. - If you dont have access to an o
 
 ## Editing Objects
 
-1. Right click on the object you wish to edit
+1. Right click on the object you wish to edit. Alternatively, double click on the object you wish to edit
 2. Click "Edit"
 
 *NOTE*
@@ -81,7 +85,7 @@ Exit | esc
 3. Confirm the deletion on the prompt
 
 *NOTE*
-You can delete objects by selecting them and pressing del
+You can also delete objects by selecting them and pressing the delete key on your keyboard
 
 | Action | Hotkey |
 --- | ---
@@ -91,8 +95,10 @@ Delete | del
 
 Links are how you build jimiFlows, they allow you to build a flow chart like diagram that is used to control execution
 
-1. Select the from object
-2. While holding the "c" key select the to object
+1. Select the object you want to go from
+2. While holding the "c" key select the object you want to go to
+
+![image](https://media1.giphy.com/media/DEtX0pRNkxMvBXs0tt/giphy.gif?cid=790b7611e6904791d5147cfb891ea79f9723b02df73f7d9c&rid=giphy.gif&ct=g)
 
 ## Editing Link Logic
 
@@ -102,12 +108,13 @@ Link logic allows you to have fine grain control over what objects are executed 
 
 Supported link logic includes:
 
-| Value | Description |
---- | ---
-True | From object returned successfully
-False | From object returned failure 
-exitCode e.g. 0 | From object exit code matches the defined integer value e.g 0
-If Logic | Logical conduction is met following jimi Logic definition e.g. if 1 == 1
+| Value | Description | Colour in Flow
+--- | --- | ---
+True | From object returned as success | Green
+False | From object returned as failure | Red
+exitCode | From object exit code matches the defined integer value e.g 0 | Yellow
+If Logic | Logical conduction is met following jimi Logic definition e.g. if 1 == 1 | Pink
+\* | Wildcard, will always continue | Blue
 
 ## Deleting Links
 
