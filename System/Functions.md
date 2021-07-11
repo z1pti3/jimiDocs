@@ -188,6 +188,20 @@ Get DNS from a give IP:
 
 `reverseDNS(<IPv4Address>)`
 
+## Security
+
+### encryptString
+
+Encrypt a string with a given password:
+
+`encryptString(<plaintext>, <secureString>)`
+
+### decryptString
+
+Decrypt a string with a given password:
+
+`encryptString(<encryptedString>, <secureString>)`
+
 ## String
 
 ### contains
