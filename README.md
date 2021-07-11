@@ -1,16 +1,5 @@
+![jimiIconInvisibilityTest](https://user-images.githubusercontent.com/66521110/125195510-d7741400-e24d-11eb-86b0-72beb7e70286.png)
 
-```
-           8 8888            8 8888                    ,8.       ,8.                     8 8888
-           8 8888            8 8888                   ,888.     ,888.                    8 8888
-           8 8888            8 8888                  .`8888.   .`8888.                   8 8888
-           8 8888            8 8888                 ,8.`8888. ,8.`8888.                  8 8888
-           8 8888            8 8888                ,8'8.`8888,8^8.`8888.                 8 8888
-           8 8888            8 8888               ,8' `8.`8888' `8.`8888.                8 8888
-88.        8 8888            8 8888              ,8'   `8.`88'   `8.`8888.               8 8888
-`88.       8 888'            8 8888             ,8'     `8.`'     `8.`8888.              8 8888
-  `88o.    8 88'             8 8888            ,8'       `8        `8.`8888.             8 8888
-    `Y888888 '               8 8888           ,8'         `         `8.`8888.            8 8888
-```
 jimi Orchestration, Automation, Response and More
 
 Describing exactly what jimi is difficult as jimi is and means different things depending on the user and use case. Simply put jimi is a graphical expandable IT orchestration and automation platform.
