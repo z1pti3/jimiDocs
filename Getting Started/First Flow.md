@@ -4,6 +4,8 @@ sort: 1
 
 # First Flow
 
+_We've also released a video of this tutorial! Check it out at https://youtu.be/g-Eo6qMQGoE_
+
 ### Creating your first conduct
 Login to jimi
 
