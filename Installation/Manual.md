@@ -57,8 +57,8 @@ nano settings.json
 {
     "system" : {
         "systemID" : 0,
-        "accessAddress" : "<jim_core HOST>",
-        "accessPort" : <jim_core PORT>,
+        "accessAddress" : "<JIMI_CORE_ADDRESS>",
+        "accessPort" : 5000,
         "secure" : false
     },
     "debug" : {
@@ -68,21 +68,27 @@ nano settings.json
     "static" : {
     },
     "mongodb": {
-        "hosts" : ["<HOST>:<PORT>"],
-        "db" : "<DBNAME>",
+        "hosts" : ["<DB_HOST>:27017"],
+        "db" : "dev",
         "username" : null,
         "password" : null
     },
     "api": {
         "core" : {
-            "bind" : "127.0.0.1",
+            "bind" : "<JIMI_CORE_ADDRESS>",
             "port" : 5000,
+            "base" : "api/1.0",
+            "apiKey" : null
+        },
+        "worker" : {
+            "bind" : "127.0.0.1",
+            "startPort" : 5001,
             "base" : "api/1.0",
             "apiKey" : null
         },
         "web" : {
             "bind" : "0.0.0.0",
-            "port" : 5002,
+            "port" : 5015,
             "base" : "api/1.0",
             "apiKey" : null
         },
@@ -111,13 +117,13 @@ nano settings.json
         "deadTimer" : 30
     },
     "audit" : {
-    "db" : {
-        "enabled" : true
-    },
-    "file" : {
-        "enabled" : true,
-        "logdir" : "log"
-    }
+        "db" : {
+            "enabled" : true
+        },
+        "file" : {
+            "enabled" : true,
+            "logdir" : "log"
+        }
     },
     "auth" : {
         "enabled" : true,
@@ -136,6 +142,9 @@ nano settings.json
             "minUpper" : 1,
             "minSpecial" : 0
         }
+    },
+    "cache" : {
+        "garbageCollector" : true
     }
 }
 ```
