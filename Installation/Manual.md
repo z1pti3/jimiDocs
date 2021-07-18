@@ -38,6 +38,7 @@ mkdir data
 6. Change directory into data
 ```
 cd data
+mkdir temp
 ```
 
 7. Generate an rsa public private key pair
