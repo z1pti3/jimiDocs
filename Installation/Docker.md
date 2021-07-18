@@ -16,6 +16,7 @@ sort: 1
 Create a data directory
 
 `mkdir data`
+`mkdir data/temp`
 
 Create a plugin directory
 
