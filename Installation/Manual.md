@@ -7,6 +7,7 @@ sort: 2
 ## Prerequisites
 * mongodb 4.2+ - [How to install](https://docs.mongodb.com/manual/administration/install-on-linux/)
 * python3 - [How to install](https://docs.python-guide.org/starting/install3/linux/)
+* python3-pip
 
 ## jimi
 1. Clone repository
