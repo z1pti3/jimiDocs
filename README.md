@@ -25,8 +25,6 @@ After install access jimi @ http://(YOUR SERVER ADDRESS):5015
 
 More options for other systems can details can be found within our document site.
 
-View Help Docs: [jimi Docs](https://z1pti3.github.io/jimiDocs)
-
 # Applications and Integrations 
 
 Jimi’s power comes from the over 60 open source integrations that extend the functionally to include alerting and monitoring, asset management, software packaging and deployment, security playbooks, SIEM and XDR. – We are always looking to build new integrations so if something is missing let us know.
