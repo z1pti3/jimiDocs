@@ -168,7 +168,4 @@ python3 jimi_core.py
 python3 jimi_web.py
 ```
 
-**NOTE: 
-For production workloads we recommend that jimi_web is run with a WSGI such as gunicorn, fronted by Apache. jimi_core should also be run by a dedicated user and not root.**
-
-If all has gone well then jimi should now be up and running and browsing to http://127.0.0.1:5002 should display the login page. 
+If all has gone well then jimi should now be up and running and browsing to http://127.0.0.1:5015 should display the login page. 
