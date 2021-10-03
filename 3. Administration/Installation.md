@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Manual
+# Installation
 
 ## Prerequisites
 * mongodb 4.2+ - [How to install](https://docs.mongodb.com/manual/administration/install-on-linux/)
