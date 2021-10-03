@@ -20,7 +20,7 @@ jimiFlow to spider a network from a given swtich using CDP
 
 ![image](https://user-images.githubusercontent.com/66521110/135755097-c69802eb-56d8-4407-b3a2-4bfaa78d6079.png)
 
-### TIP
+### *Note*
 name within the events field for a given swtich must match the swtich name that you are connecting to otherwise the connection will fail
 
 ## Flow Screenshot
