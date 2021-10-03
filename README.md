@@ -1,47 +1,71 @@
-![jimiIconInvisibilityTest](https://user-images.githubusercontent.com/66521110/125195510-d7741400-e24d-11eb-86b0-72beb7e70286.png)
+![image](https://user-images.githubusercontent.com/66521110/135731432-96d7acc4-1c1f-47b1-b81a-6e0f47c9994c.png)
 
-jimi Orchestration, Automation, Response and More
+jimi is an orchestration automation tool focusing on multi-team collaboration through an intuitive flow-based interface. Initially developed by Cyber Security Professionals as an Security Automation Orchestration and Response ( SOAR ) platform jimi now offers unlimited flexibility into all areas of automation from IT/Security operations to Development and CI/CD pipelines. 
 
-Describing exactly what jimi is difficult as jimi is and means different things depending on the user and use case. Simply put jimi is a graphical expandable IT orchestration and automation platform.
+![jimi sample 1](https://user-images.githubusercontent.com/66521110/123510485-cf27b080-d673-11eb-9a41-0a82de0b8115.gif)
 
-jimi takes a no/low code approach to IT and security operations allowing users with no programming experience to build, deploy and understand automated workflows.
+# Getting Started
 
-![Screenshot](https://github.com/z1pti3/jimi/raw/v1.5/examples/screenshots/flowEditor.png)
+The quickest way to get started is to use our install script on a Ubuntu system
 
-jimi out of the box provides a core engine and user interface but the real power exists within the many triggers and actions that enable jimi to interact with systems and services. For those of you that are new to jimi these interactions are deployed in the form of plugins. Each plugin is written in python so that anyone with even basic python knowledge can create and enhance jimi's capability.
+```
+wget https://raw.githubusercontent.com/z1pti3/jimi-setup/main/install.sh
+bash install.sh
+```
 
-Currently jimi has 26 public integrations consisting of just over 100 actions and triggers.
+After install access jimi @ http://(YOUR SERVER ADDRESS):5015
 
-View Plugins: [Plugins](https://github.com/topics/jimiplugin)
+More options for other systems can details can be found within our document site.
 
-## Enterprise Ready
+View Help Docs: [jimi Docs](https://z1pti3.github.io/jimiDocs)
+
+# Applications and Integrations 
+
+Jimi’s power comes from the over 60 open source integrations that extend the functionally to include alerting and monitoring, asset management, software packaging and deployment, security playbooks, SIEM and XDR. – We are always looking to build new integrations so if something is missing let us know.
+
+View Integrations: [Integrations](https://github.com/topics/jimiplugin)
+
+View Sample Flows: [Samples](https://github.com/z1pti3/jimiFlows)
+
+# Getting Help
+
+Start a discussion, log and issues or join us live on discord.
+
+[discord](https://discord.gg/XWKkbDdJF9)
+
+[jimi Video Introduction](https://www.youtube.com/watch?v=g-Eo6qMQGoE)
+
+# Enterprise Ready
+
+jimi has all of your enterprise needs covered and has been extensively tested for stability and to date has executed more than 10 billion actions.
+
+## Features ( With Recommended Plugins )
+* Remote commands and playbooks ( winrm, ssh )
+* Remote file trasnfer ( scp, smb )
+* Run python scripts and script blocks
+* Alerting and monitoring
+* Send emails
+* Asset Management
+* Link flows together as functions
+* Execute any API request
+* React to your Humio event log results
+* SIEM and XDR
+* Clustering
+* Codfiy flows
+* In-built docs 
+* Threaded and Multiprocessing
 * Multi-user
+* Scheduling ( Trigger, Random Ranges, Cron )
+* Debuging mode UI
 * 2FA
 * Object and field level ACL
-* Password vault
-* Clustering for 2 or more jimi nodes with automatic failover and recovery
-* Self monitoring
-
-## Common Uses by Role: 
-We have provided just a few examples but with jimi the limit is your imagination.
-
-### IT Security Analyst
-* SOAR
-* SIEM
-* Event enrichment
-* Security product integration
-
-### IT Administrator
-* Asset management
-* Software deployment
-* ITIL ticket automation
-* Workflow automation
-* Server performance monitoring
-
-### Network Engineer
-* Network monitoring
-* Automated diagnostics and remediation
-* Backups
-* Configuration management
-
-If you do something more than once then use jimi to reduce repetitive tasks!
+* Secure password storage
+* Audit logging
+* Import/Export
+* Loops
+* Rich no-code flow editor
+* Append to existing conducts from other condcuts
+* Variables and Logic
+* Self monitoring and automatic recovery
+* Object revisions
+* Remote authenication
