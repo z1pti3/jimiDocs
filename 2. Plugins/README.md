@@ -2,15 +2,15 @@
 sort: 2
 ---
 
-# Plugins
+# Integrations
 
-Out of the box jimi is nothing more than a few building blocks. jimi uses plugins to come alive providing vast flexibility through a flexible structured plugin system.
+Out of the box jimi is nothing more than a few building blocks. jimi uses integrations to come alive providing vast flexibility through a flexible structured integration system.
 
-View Plugins: [Plugins](https://github.com/topics/jimiplugin)
+View Integrations: [Integrations](https://github.com/topics/jimiplugin)
 
-## Installing Plugins
+## Installing Integrations
 
-Download the plugin and extract it into the plugin folder, after doing this you will need to restart jimi.
+Download the integration and extract it into the plugin folder, after doing this you will need to restart jimi.
 
 If you are running jimi in a cluster then make sure you install the plugin to all jimi instances.
 
@@ -25,16 +25,16 @@ mv jimiPlugin-humio-master plugin/humio
 rm master.zip
 ```
 
-The folder name of the plugin MUST match the plugin name - this can be found by looking at the .py file within the plugin in the example above it would be humio.py
+The folder name of the integration MUST match the integration name - this can be found by looking at the .py file within the integration in the example above it would be humio.py
 
-You may find that some plugins required additional python modules. If this is the case you will need to install them on your jimi instance/s
+You may find that some integration required additional python modules. If this is the case you will need to install them on your jimi instance/s
 
 `pip install -r requirements.txt`
 
 
-## Recommended Plugins
+## Recommended Integrations
 
-Bring jimi alive by installing our recommended plugins
+Bring jimi alive by installing our recommended Integrations
 
 | Name | Description |
 --- | ---
