@@ -57,96 +57,34 @@ nano settings.json
 
 ```
 {
+    {
     "system" : {
         "systemID" : 0,
-        "accessAddress" : "<JIMI_CORE_ADDRESS>",
+        "accessAddress" : "127.0.0.1",
         "accessPort" : 5000,
-        "secure" : false
-    },
-    "debug" : {
-        "level" : -1,
-        "buffer" : 1000
-    },
-    "static" : {
+        "secure" : false,
+        "max_workers" : 1
     },
     "mongodb": {
-        "hosts" : ["<DB_HOST>:27017"],
-        "db" : "dev",
+        "hosts" : ["127.0.0.1:27017"],
+        "db" : "jimi",
         "username" : null,
         "password" : null
     },
     "api": {
+        "base" : "api/1.0",
         "core" : {
-            "bind" : "<JIMI_CORE_ADDRESS>",
-            "port" : 5000,
-            "base" : "api/1.0",
-            "apiKey" : null
+            "bind" : "127.0.0.1",
+            "port" : 5000
         },
         "worker" : {
             "bind" : "127.0.0.1",
-            "startPort" : 5001,
-            "base" : "api/1.0",
-            "apiKey" : null
+            "startPort" : 5001
         },
         "web" : {
             "bind" : "0.0.0.0",
-            "port" : 5015,
-            "base" : "api/1.0",
-            "apiKey" : null
-        },
-        "proxy" : {
-            "http" : null,
-            "https" : null
+            "port" : 5015
         }
-    },
-    "workers" : { 
-        "concurrent" : 15,
-        "loopT" : 0.01,
-        "loopT1" : 0.25,
-        "loopL" : 200
-    },
-    "cpuSaver" : { 
-        "enabled" : true,
-        "loopT" : 0.01,
-        "loopL" : 100
-    },
-    "scheduler" : {
-        "loopP" : 5
-    },
-    "cluster" : {
-        "loopP" : 10,
-        "recoveryTime" : 60,
-        "deadTimer" : 30
-    },
-    "audit" : {
-        "db" : {
-            "enabled" : true
-        },
-        "file" : {
-            "enabled" : true,
-            "logdir" : "log"
-        }
-    },
-    "auth" : {
-        "enabled" : true,
-        "sessionTimeout" : 1800,
-        "apiSessionTimeout" : 300,
-        "cacheSessionTimeout" : 60,
-        "singleUserSessions" : true,
-        "rsa" : {
-            "cert" : "data/sessionPub.pem",
-            "key" : "data/sessionPriv.pem"
-        },
-        "policy" : {
-            "minLength" : 8,
-            "minNumbers" : 1,
-            "minLower" : 1,
-            "minUpper" : 1,
-            "minSpecial" : 0
-        }
-    },
-    "cache" : {
-        "garbageCollector" : true
     }
 }
 ```
