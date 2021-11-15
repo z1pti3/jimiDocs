@@ -2,6 +2,13 @@
 sort: 1
 ---
 
+# Quick Start
+
+```
+wget https://raw.githubusercontent.com/z1pti3/jimi-setup/main/install.sh
+bash install.sh
+```
+
 # Installation
 
 ## Prerequisites
