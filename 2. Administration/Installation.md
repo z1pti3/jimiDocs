@@ -2,13 +2,6 @@
 sort: 1
 ---
 
-# Quick Start
-
-```
-wget https://raw.githubusercontent.com/z1pti3/jimi-setup/main/install.sh
-bash install.sh
-```
-
 # Installation
 
 ## Prerequisites
@@ -16,7 +9,15 @@ bash install.sh
 * python3 - [How to install](https://docs.python-guide.org/starting/install3/linux/)
 * python3-pip
 
-## jimi
+## Quick Start
+
+```
+wget https://raw.githubusercontent.com/z1pti3/jimi-setup/main/install.sh
+bash install.sh
+```
+
+## Manural
+
 1. Clone repository
 ```
 git clone https://github.com/z1pti3/jimi.git
