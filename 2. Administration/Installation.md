@@ -11,6 +11,8 @@ sort: 1
 
 ## Quick Start
 
+Our quick start script will build a deploy jimi to a Ubuntu server including systemd service install.
+
 ```
 wget https://raw.githubusercontent.com/z1pti3/jimi-setup/main/install.sh
 bash install.sh
