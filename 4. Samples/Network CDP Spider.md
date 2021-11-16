@@ -14,7 +14,7 @@ jimiFlow to spider a network from a given swtich using CDP
 
 1. Import flow into a jimi conduct
 
-2. Replace <ssh_username>, <ssh_password> and <ssh_enable> with the required values to enable swtich connection over ssh
+2. Replace ssh_username, ssh_password and ssh_enable with the required values to enable swtich connection over ssh
 
 3. Update the trigger to contain the starting switch information
 
