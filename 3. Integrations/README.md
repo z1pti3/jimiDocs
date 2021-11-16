@@ -8,6 +8,18 @@ Out of the box jimi is nothing more than a few building blocks. jimi uses integr
 
 View Integrations: [Integrations](https://github.com/topics/jimiplugin)
 
+## Accessing Intergrations Marketplace
+
+Login to jimi as an admin and head to the "Application Store" from within the "Administartion" menu
+
+![image](https://user-images.githubusercontent.com/66521110/142068497-5e7561f6-64e1-43d2-8cbc-891e60bbe641.png)
+
+Select an intergration to install / upgrade by cliecking the "install/upgrade" button
+
+![image](https://user-images.githubusercontent.com/66521110/142068669-a64b0529-e4c5-42f8-a80a-0518b8b7e23c.png)
+
+To start the install press "install/upgrade" from the top of the page.
+
 ## Installing Integrations
 
 Download the integration and extract it into the plugin folder, after doing this you will need to restart jimi.
